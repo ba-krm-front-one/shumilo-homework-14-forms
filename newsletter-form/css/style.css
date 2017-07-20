@@ -1,0 +1,131 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+body {
+	background-color: #bac5db;
+}
+.letter-form {
+	max-width: 666px;
+	min-width: 400px;
+	min-height: 384px;
+	background-color: #353a45;
+	margin: 10% auto;
+	box-shadow: 0 26px 49px rgba(35, 70, 133, 0.28);
+	border-radius: 24px;
+	position: relative;
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+.icon-letter {
+	position: absolute;
+	top: -12%;
+	left: 43%;
+}
+.cross {
+	position: absolute;
+	top: 3%;
+	right: 1.5%;
+}
+.title {
+	color: #538fff;
+	font-family: Lato, sans-serif;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 48px;
+	text-align: center;
+	margin: 0;
+}
+.title-info {
+	color: #ffffff;
+	font-family: Lato, sans-serif;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 34px;
+	text-align: center;
+	margin-top: 25px;
+}
+.email-form {
+	display: flex;
+	justify-content: space-between;
+	margin: 28px auto;
+	flex-wrap: wrap;
+	max-width: 546px;
+}
+.email-input {
+	width: 372px;
+	height: 52px;
+	box-shadow: inset 0 5px 5px rgba(0, 0, 0, 0.05);
+	border-radius: 10px;
+	border: 1px solid #c4c4c4;
+	background-color: #ffffff;
+	padding-left: 17px;
+	outline: none;
+	color: #a9a9a9;
+	margin-top: 10px;
+}
+.email-submit {
+	min-width: 161px;
+	height: 52px;
+	font-family: Lato, sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 29px;
+	text-transform: uppercase;
+	border-radius: 10px;
+	background-color: #538fff;
+	border: none;
+	color: #ffffff;
+	letter-spacing: 2px;
+	margin-top: 10px;
+}
+@media screen and (max-width: 550px) {
+.email-input, .email-submit {
+	flex-grow: 1;
+}
+}
+.footer-text {
+	text-align: center;
+	color: #787d87;
+	font-family: Lato, sans-serif;
+	font-size: 20px;
+	font-style: italic;
+	line-height: 34px;
+}
